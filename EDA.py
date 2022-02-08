@@ -1,6 +1,5 @@
 import os
 import sys
-sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -9,7 +8,7 @@ import argparse
 import shutil
 from tqdm import tqdm
 from Utils.logger import Logger
-from Uitls.utils import *
+
 ## 구동코드 : python3 EDA.py -data 데이터명.csv -target Target
 
 # 수치형 시각화
