@@ -1,2 +1,4 @@
 # EDA_processing
-base EDA code
+
+## generalized baseline base EDA code
+You can simply explore most of the data through the corresponding baseline.
